@@ -5,7 +5,7 @@ def my_collect(collection)
     empty_collection << yield(collection[i])
     i += 1 
   end
-  collection
+  return empty_collection
 end
 
 # collection = ['ruby', 'javascript', 'python', 'objective-c']
